@@ -1,0 +1,173 @@
+/*Font: Overpass 400-700*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 400;
+}
+
+/* make images easier to work with */
+img,
+picutre {
+    max-width: 100%;
+    display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+:root {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --orage: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+
+}
+body {
+    font-family: 'Overpass', 'Courier New', 'Courier', 'monospace';
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
+body > main{
+    max-width: 600px;
+    font-family: 'Overpass';
+    background-color: var(--dark-blue);
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 5rem;
+}
+.thanks-card > * {
+    max-width: 600px;
+    font-family: 'Overpass';
+    background-color: var(--dark-blue);
+    margin: 0 auto;
+    align-items: center;
+    border: 1px red saddlebrown;
+    border-radius: 15px;
+}
+.card {
+    font-family: 'Overpass';
+    background-color: var(--dark-blue);
+   
+}
+
+
+
+.icon > svg {
+    color: var(--orage);
+  
+}
+.icon {
+    background-color: hsl(214, 15%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+}
+
+h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Overpass';
+}
+
+p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--light-grey);
+    font-family: 'Overpass';
+}
+
+.btn {
+    background-color: var(--orage);
+    font-family: 'Overpass'; 
+    border-radius: 25px;
+    padding: 0.7rem 0;
+}
+
+.btn:active,
+.btn:hover {
+    background-color: var(--white);
+    color: var(--orage);
+}
+.d-flex {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    justify-self: center;
+    background-color: hsl(214, 15%, 22%);
+    border-radius: 50%;
+    color: var(--medium-grey);
+    width: 35px;
+    height: 35px;
+}
+
+.show-rate {
+    background-color: hsl(214, 15%, 22%);
+    color: hsl(25, 92%, 67%);
+    padding: 0.5rem 0.3rem;
+    border-radius: 12px;
+    width: 160px;
+   
+}
+
+.thanks-card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.thanks-card-inner > .rate-info{
+    padding-inline: 1.5rem;
+}
+
