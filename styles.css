@@ -81,7 +81,6 @@ body > main{
     background-color: var(--dark-blue);
     margin: 0 auto;
     align-items: center;
-    border: 1px red saddlebrown;
     border-radius: 15px;
 }
 .card {
