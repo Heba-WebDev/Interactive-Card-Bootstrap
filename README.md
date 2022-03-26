@@ -6,6 +6,6 @@
 
 
 
-## A simple interactive card built with HTML, Bootstrap/+ Vanilla CSS + Vanilla Javascript
+## An interactive card built with HTML, Bootstrap/+ Vanilla CSS + Vanilla Javascript
 
-You can view the live-site on here:
+You can view the live-site on here: https://famous-mooncake-a30a41.netlify.app
